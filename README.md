@@ -1,3 +1,5 @@
+## ⚠️ Deprecation warning: This project has been integrated into the [Alephium frontend monorepo](https://github.com/alephium/alephium-frontend/) and is no longer maintained.
+
 # Alephium js-sdk
 
 [![Github CI][test-badge]][test-link]
