@@ -18,5 +18,5 @@ along with the library. If not, see <http://www.gnu.org/licenses/>.
 
 export const NUM_OF_ZEROS_IN_QUINTILLION = 18
 export const MINIMAL_GAS_AMOUNT = 20000
-export const MINIMAL_GAS_PRICE = BigInt(100000000000) // 100 nanoALPH for the first year to prevent DoS attacks
+export const MINIMAL_GAS_PRICE = BigInt(100000000000) // 100 nanoOXM for the first year to prevent DoS attacks
 export const GENESIS_TIMESTAMP = 1231006505000

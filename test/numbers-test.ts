@@ -31,7 +31,7 @@ import {
 
 const minDigits = 3
 
-it('Should abbreviate ALPH amount', () => {
+it('Should abbreviate OXM amount', () => {
   expect(formatAmountForDisplay({ amount: BigInt('-1') })).toEqual('???'),
     expect(formatAmountForDisplay({ amount: BigInt('0') })).toEqual('0'),
     expect(formatAmountForDisplay({ amount: BigInt('1') })).toEqual('0.000000000000000001'),
