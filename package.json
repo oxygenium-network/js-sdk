@@ -35,8 +35,8 @@
     "devnet:start": "npx @oxygenium/cli devnet start"
   },
   "dependencies": {
-    "@oxygenium/token-list": "^0.0.7",
-    "@oxygenium/web3": "^0.12.2",
+    "@oxygenium-network/token-list": "^0.0.20",
+    "@oxygenium/web3": "^0.16.1-4",
     "base-x": "^4.0.0",
     "bcfg": "~0.1.6",
     "bip32": "^2.0.6",
@@ -47,8 +47,8 @@
     "elliptic": "^6.5.4"
   },
   "devDependencies": {
-    "@oxygenium/cli": "^0.10.2",
-    "@oxygenium/web3-test": "^0.10.2",
+    "@oxygenium/cli": "^0.16.1-4",
+    "@oxygenium/web3-test": "^0.16.1-4",
     "@types/crypto-js": "^4.1.1",
     "@types/elliptic": "^6.4.13",
     "@types/jest": "^29.4.0",

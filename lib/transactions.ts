@@ -18,7 +18,7 @@ along with the library. If not, see <http://www.gnu.org/licenses/>.
 
 import { explorer } from '@oxygenium/web3'
 import { uniq } from './utils'
-import { TokenInfo } from '@oxygenium/token-list'
+import { TokenInfo } from '@oxygenium-network/token-list'
 import { Optional } from '@oxygenium/web3'
 import { AddressBalance, Token, Output } from '@oxygenium/web3/dist/src/api/api-explorer'
 
