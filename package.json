@@ -1,7 +1,7 @@
 {
   "name": "@oxygenium/sdk",
   "version": "0.7.6",
-  "description": "A JS/TS library to interact with the Alephium platform",
+  "description": "A JS/TS library to interact with the Oxygenium platform",
   "license": "GPL",
   "main": "dist/index.js",
   "browser": "dist/oxygenium.min.js",
@@ -21,7 +21,7 @@
   "bugs": {
     "url": "https://github.com/oxygenium/js-sdk/issues"
   },
-  "author": "Alephium dev <dev@oxygenium.org>",
+  "author": "Oxygenium dev <dev@oxygenium.org>",
   "scripts": {
     "build": "rm -rf dist && npx tsc --build . && webpack",
     "dev": "tsnd --respawn lib/index.ts",

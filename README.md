@@ -1,13 +1,13 @@
-## ⚠️ Deprecation warning: This project has been integrated into the [Alephium frontend monorepo](https://github.com/oxygenium/oxygenium-frontend/) and is no longer maintained.
+## ⚠️ Deprecation warning: This project has been integrated into the [Oxygenium frontend monorepo](https://github.com/oxygenium/oxygenium-frontend/) and is no longer maintained.
 
-# Alephium js-sdk
+# Oxygenium js-sdk
 
 [![Github CI][test-badge]][test-link]
 [![Code Coverage][coverage-badge]][coverage-link]
 [![NPM][npm-badge]][npm-link]
 [![code style: prettier][prettier-badge]][prettier-link]
 
-A JavaScript/TypeScript library for building applications that interact the Alephium platform.
+A JavaScript/TypeScript library for building applications that interact the Oxygenium platform.
 
 ## Install
 
