@@ -17,9 +17,9 @@
     "type": "git",
     "url": "git@github.com:oxygenium/js-sdk.git"
   },
-  "homepage": "https://github.com/oxygenium/js-sdk",
+  "homepage": "https://github.com/oxygenium-network/js-sdk",
   "bugs": {
-    "url": "https://github.com/oxygenium/js-sdk/issues"
+    "url": "https://github.com/oxygenium-network/js-sdk/issues"
   },
   "author": "Oxygenium dev <dev@oxygenium.org>",
   "scripts": {
