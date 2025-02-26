@@ -363,7 +363,7 @@ it('should detect if string number is equal or above 999999 trillions', () => {
     expect(aboveExpLimit('1e+14')).toBeFalsy()
 })
 
-it('should convert Set amount to Alph amount', () => {
+it('should convert Set amount to Oxm amount', () => {
   expect(toHumanReadableAmount(BigInt('0'))).toEqual('0'),
     expect(toHumanReadableAmount(BigInt('1'))).toEqual('0.000000000000000001'),
     expect(toHumanReadableAmount(BigInt('100000000000000000'))).toEqual('0.1'),

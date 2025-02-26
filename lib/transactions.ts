@@ -96,7 +96,7 @@ const summarizeAddressInputOutputAmounts = (address: string, io: (explorer.Input
     (acc, io) => {
       if (io.address !== address) return acc
 
-      acc.alph += BigInt(io.attoAlphAmount ?? 0)
+      acc.alph += BigInt(io.attoOxmAmount ?? 0)
 
       if (!io.tokens) return acc
 
@@ -140,7 +140,7 @@ export const removeConsolidationChangeAmount = (
   return outputs.length > 1
     ? // If there are multiple outputs, the last one must be the change amount (this is a heuristic and not guaranteed)
       {
-        alph: totalOutputs.alph - BigInt(lastOutput.attoAlphAmount),
+        alph: totalOutputs.alph - BigInt(lastOutput.attoOxmAmount),
         tokens: totalOutputs.tokens
           .map((token) => ({
             ...token,
