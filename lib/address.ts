@@ -1,6 +1,6 @@
 /*
 Copyright 2018 - 2022 The Alephium Authors
-This file is part of the alephium project.
+This file is part of the oxygenium project.
 
 The library is free software: you can redistribute it and/or modify
 it under the terms of the GNU Lesser General Public License as published by
@@ -18,7 +18,7 @@ along with the library. If not, see <http://www.gnu.org/licenses/>.
 
 import { AddressKeyPair, deriveNewAddressData } from './wallet'
 import { BIP32Interface } from 'bip32'
-import { bs58, ExplorerProvider, TOTAL_NUMBER_OF_GROUPS } from '@alephium/web3'
+import { bs58, ExplorerProvider, TOTAL_NUMBER_OF_GROUPS } from '@oxygenium/web3'
 
 export const isAddressValid = (address: string) =>
   !!address && /^[1-9A-HJ-NP-Za-km-z]+$/.test(address) && bs58.decode(address).slice(1).length >= 32

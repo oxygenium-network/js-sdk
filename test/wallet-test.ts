@@ -1,6 +1,6 @@
 /*
 Copyright 2018 - 2022 The Alephium Authors
-This file is part of the alephium project.
+This file is part of the oxygenium project.
 
 The library is free software: you can redistribute it and/or modify
 it under the terms of the GNU Lesser General Public License as published by
@@ -25,7 +25,7 @@ import * as walletUtils from '../lib/wallet'
 
 import wallets from './fixtures/wallets.json'
 import genesis from './fixtures/genesis.json'
-import { addressToGroup, TOTAL_NUMBER_OF_GROUPS } from '@alephium/web3'
+import { addressToGroup, TOTAL_NUMBER_OF_GROUPS } from '@oxygenium/web3'
 
 describe('Wallet', function () {
   afterEach(() => {
@@ -33,7 +33,7 @@ describe('Wallet', function () {
   })
 
   it('should encrypt and decrypt using password', async () => {
-    const myPassword = 'alephium'
+    const myPassword = 'oxygenium'
     const myWallet = walletUtils.walletGenerate()
     const readWallet = await walletUtils.walletOpen(myPassword, myWallet.encrypt(myPassword))
     expect(JSON.stringify(myWallet)).toEqual(JSON.stringify(readWallet))

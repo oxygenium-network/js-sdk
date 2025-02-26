@@ -1,4 +1,4 @@
-## ⚠️ Deprecation warning: This project has been integrated into the [Alephium frontend monorepo](https://github.com/alephium/alephium-frontend/) and is no longer maintained.
+## ⚠️ Deprecation warning: This project has been integrated into the [Alephium frontend monorepo](https://github.com/oxygenium/oxygenium-frontend/) and is no longer maintained.
 
 # Alephium js-sdk
 
@@ -14,7 +14,7 @@ A JavaScript/TypeScript library for building applications that interact the Alep
 ### In Node projects
 
 ```shell
-npm install @alephium/sdk
+npm install @oxygenium/sdk
 ```
 
 💥 Until our SDK is stable, breaking changes will be introduced in **minor** versions (instead of the traditional major versions of semver). We recommend allowing patch-level updates and to always read the [release notes][release-notes] for breaking changes.
@@ -23,25 +23,25 @@ npm install @alephium/sdk
 // package.json
 {
    "dependencies": {
-      "@alephium/sdk": "~X.Y.Z"
+      "@oxygenium/sdk": "~X.Y.Z"
    }
 }
 ```
 
 ### In browser projects
 
-All you have to do is to include the library in your HTML document. The `alephium` global variable will be available.
+All you have to do is to include the library in your HTML document. The `oxygenium` global variable will be available.
 
 ```html
-<script src="alephium.min.js"></script>
+<script src="oxygenium.min.js"></script>
 <script>
-  const { walletGenerate } = alephium
+  const { walletGenerate } = oxygenium
   const wallet = walletGenerate()
   console.log(wallet)
 </script>
 ```
 
-You can either build the library by cloning this repo and running the build script (the file will be located at `/dist/alephium.min.js`), or simply using a CDN.
+You can either build the library by cloning this repo and running the build script (the file will be located at `/dist/oxygenium.min.js`), or simply using a CDN.
 
 ```shell
 npm run build
@@ -50,13 +50,13 @@ npm run build
 #### via UNPKG CDN
 
 ```html
-<script src="https://unpkg.com/@alephium/sdk@X.Y.Z/dist/alephium.min.js"></script>
+<script src="https://unpkg.com/@oxygenium/sdk@X.Y.Z/dist/oxygenium.min.js"></script>
 ```
 
 #### via jsDelivr CDN
 
 ```html
-<script src="https://cdn.jsdelivr.net/npm/@alephium/sdk@X.Y.Z/dist/alephium.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@oxygenium/sdk@X.Y.Z/dist/oxygenium.min.js"></script>
 ```
 
 ## Development
@@ -105,13 +105,13 @@ or, to watch for changes:
 npm run test:watch
 ```
 
-[test-badge]: https://github.com/alephium/js-sdk/actions/workflows/test.yml/badge.svg
-[test-link]: https://github.com/alephium/js-sdk/actions/workflows/test.yml
-[coverage-badge]: https://codecov.io/gh/alephium/js-sdk/branch/master/graph/badge.svg
-[coverage-link]: https://codecov.io/gh/alephium/js-sdk
-[npm-badge]: https://img.shields.io/npm/v/@alephium/sdk.svg
-[npm-link]: https://www.npmjs.org/package/@alephium/sdk
+[test-badge]: https://github.com/oxygenium/js-sdk/actions/workflows/test.yml/badge.svg
+[test-link]: https://github.com/oxygenium/js-sdk/actions/workflows/test.yml
+[coverage-badge]: https://codecov.io/gh/oxygenium/js-sdk/branch/master/graph/badge.svg
+[coverage-link]: https://codecov.io/gh/oxygenium/js-sdk
+[npm-badge]: https://img.shields.io/npm/v/@oxygenium/sdk.svg
+[npm-link]: https://www.npmjs.org/package/@oxygenium/sdk
 [prettier-badge]: https://img.shields.io/badge/code_style-prettier-ff69b4.svg
 [prettier-link]: https://github.com/prettier/prettier
-[release-notes]: https://github.com/alephium/js-sdk/releases
+[release-notes]: https://github.com/oxygenium/js-sdk/releases
 [1]: https://github.com/facebook/create-react-app/blob/2da5517689b7510ff8d8b0148ce372782cb285d7/packages/react-scripts/scripts/init.js#L264-L278

@@ -1,6 +1,6 @@
 /*
 Copyright 2018 - 2022 The Alephium Authors
-This file is part of the alephium project.
+This file is part of the oxygenium project.
 
 The library is free software: you can redistribute it and/or modify
 it under the terms of the GNU Lesser General Public License as published by
@@ -20,7 +20,7 @@ import { walletImport } from '../lib'
 import { discoverActiveAddresses, isAddressValid } from '../lib/address'
 import wallets from './fixtures/wallets.json'
 import derivedAddresses from './fixtures/address-discovery.json'
-import { ExplorerProvider } from '@alephium/web3'
+import { ExplorerProvider } from '@oxygenium/web3'
 
 describe('address', function () {
   it('is valid', async () => {

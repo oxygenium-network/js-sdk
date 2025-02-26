@@ -1,6 +1,6 @@
 with import <nixpkgs> {}; {
   sdlEnv = stdenv.mkDerivation {
-    name = "alephium-js";
+    name = "oxygenium-js";
     shellHook = ''
     '';
     buildInputs = [

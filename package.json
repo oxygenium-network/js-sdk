@@ -1,27 +1,27 @@
 {
-  "name": "@alephium/sdk",
+  "name": "@oxygenium/sdk",
   "version": "0.7.6",
   "description": "A JS/TS library to interact with the Alephium platform",
   "license": "GPL",
   "main": "dist/index.js",
-  "browser": "dist/alephium.min.js",
+  "browser": "dist/oxygenium.min.js",
   "types": "dist/index.d.ts",
   "exports": {
     ".": {
-      "browser": "./dist/alephium.min.js",
+      "browser": "./dist/oxygenium.min.js",
       "default": "./dist/index.js"
     }
   },
   "type": "commonjs",
   "repository": {
     "type": "git",
-    "url": "git@github.com:alephium/js-sdk.git"
+    "url": "git@github.com:oxygenium/js-sdk.git"
   },
-  "homepage": "https://github.com/alephium/js-sdk",
+  "homepage": "https://github.com/oxygenium/js-sdk",
   "bugs": {
-    "url": "https://github.com/alephium/js-sdk/issues"
+    "url": "https://github.com/oxygenium/js-sdk/issues"
   },
-  "author": "Alephium dev <dev@alephium.org>",
+  "author": "Alephium dev <dev@oxygenium.org>",
   "scripts": {
     "build": "rm -rf dist && npx tsc --build . && webpack",
     "dev": "tsnd --respawn lib/index.ts",
@@ -32,11 +32,11 @@
     "test:watch": "npm run build && npm run jest -- --watch",
     "prepublishOnly": "npm run build",
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
-    "devnet:start": "npx @alephium/cli devnet start"
+    "devnet:start": "npx @oxygenium/cli devnet start"
   },
   "dependencies": {
-    "@alephium/token-list": "^0.0.7",
-    "@alephium/web3": "^0.12.2",
+    "@oxygenium/token-list": "^0.0.7",
+    "@oxygenium/web3": "^0.12.2",
     "base-x": "^4.0.0",
     "bcfg": "~0.1.6",
     "bip32": "^2.0.6",
@@ -47,8 +47,8 @@
     "elliptic": "^6.5.4"
   },
   "devDependencies": {
-    "@alephium/cli": "^0.10.2",
-    "@alephium/web3-test": "^0.10.2",
+    "@oxygenium/cli": "^0.10.2",
+    "@oxygenium/web3-test": "^0.10.2",
     "@types/crypto-js": "^4.1.1",
     "@types/elliptic": "^6.4.13",
     "@types/jest": "^29.4.0",
