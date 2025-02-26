@@ -15,7 +15,7 @@
   "type": "commonjs",
   "repository": {
     "type": "git",
-    "url": "git@github.com:oxygenium/js-sdk.git"
+    "url": "git@github.com:oxygenium-network/js-sdk.git"
   },
   "homepage": "https://github.com/oxygenium-network/js-sdk",
   "bugs": {
