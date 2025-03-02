@@ -1,6 +1,6 @@
 {
   "name": "@oxygenium/sdk",
-  "version": "0.7.6",
+  "version": "0.7.7",
   "description": "A JS/TS library to interact with the Oxygenium platform",
   "license": "GPL",
   "main": "dist/index.js",
@@ -36,7 +36,7 @@
   },
   "dependencies": {
     "@oxygenium-network/token-list": "^0.0.20",
-    "@oxygenium/web3": "^0.16.1-4",
+    "@oxygenium/web3": "^1.12.1",
     "base-x": "^4.0.0",
     "bcfg": "~0.1.6",
     "bip32": "^2.0.6",
@@ -44,11 +44,11 @@
     "blakejs": "^1.1.1",
     "cross-fetch": "^3.1.5",
     "crypto-js": "^4.1.1",
-    "elliptic": "^6.5.4"
+    "elliptic": "^6.6.1"
   },
   "devDependencies": {
-    "@oxygenium/cli": "^0.16.1-4",
-    "@oxygenium/web3-test": "^0.16.1-4",
+    "@oxygenium/cli": "^1.12.1",
+    "@oxygenium/web3-test": "^1.12.1",
     "@types/crypto-js": "^4.1.1",
     "@types/elliptic": "^6.4.13",
     "@types/jest": "^29.4.0",
